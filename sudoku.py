@@ -377,8 +377,7 @@ hintImage = pygame.image.load("hint.jpg")
 backImage = pygame.image.load("back.jpg")
 enterImage = pygame.image.load("enter.jpg")
 checkImage = pygame.image.load("check.jpg")
-extremeImage = pygame.image.load("extreme.jpg")
-pencilMarksImage = pygame.image.load("pencilMarks.jpg")
+pencilMarksImage = pygame.image.load("pencilMarks.jpeg")
 small_font = pygame.font.SysFont("comicsansms", 25)
 large_font = pygame.font.SysFont("comicsansms", 50)
 clock = pygame.time.Clock()
@@ -613,7 +612,7 @@ while run:
     if mouseclick == True:
 
         if mousey > 541:
-            if 345 < mousex < 500 and 550 < mousey < 580:
+            if 345 < mousex < 400 and 550 < mousey < 580:
                 if pencilMarks and enterDash:
                     if space:
                         space = False
